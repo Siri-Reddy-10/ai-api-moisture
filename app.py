@@ -1,7 +1,7 @@
 import pickle
 from flask import Flask,request
 
-api=Flask(_name_)
+api=Flask(__name__)
 
 with open('ai.pkl','rb') as f:
     ai=pickle.load(f)
