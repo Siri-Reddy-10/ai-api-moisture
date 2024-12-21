@@ -18,7 +18,7 @@ def predict():
     response=ai.predict(data)[0]
     return response
 
-if _name=="main_":
+if __name__=="__main__":
         api.run(
             host='0.0.0.0',
             port=2000
